@@ -3,7 +3,7 @@ package timeKeeper.config;
 import java.io.File;
 
 import net.minecraftforge.common.Configuration;
-import obsidianGlass.blocks.BlockInfo;
+import timeKeeper.blocks.BlockInfo;
 
 public class ConfigHandler {
 	
