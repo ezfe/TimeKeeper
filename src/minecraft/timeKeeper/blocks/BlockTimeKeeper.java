@@ -32,14 +32,6 @@ public class BlockTimeKeeper extends BlockContainer {
 		blockIcon = register.registerIcon(BlockInfo.TEXTURE_LOCATION + ":" + BlockInfo.TIME_KEEPER_TEXTURE);
 	}
 	
-	@Override
-	public void onNeighborBlockChange(World world, int x, int y, int z, int id) {
-		if (!world.isRemote && world.isBlockIndirectlyGettingPowered(x, y, z)) {
-			timeKeep(world);
-		} else {
-		}
-	}
-
 	public static void timeKeep(World world) {
 		DateFormat dateFormat = new SimpleDateFormat("HH");
 		Date date = new Date();
