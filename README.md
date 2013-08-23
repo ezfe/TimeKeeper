@@ -30,6 +30,14 @@ Without NEI:
 
 It has no recipe, and you only need one per world. However the chunk needs to stay loaded, so placing it spawn is helpful.
 
-You shouldn't need to do anything else. If you notice the mod is causing significant server load, create an issue in github, and I will look into it :) (https://github.com/ezfe/TimeKeeper/issues)
+You shouldn't need to do anything else. If you notice the mod is causing significant lag (or any other issue), create an issue on Github, and I will look into it :) (https://github.com/ezfe/TimeKeeper/issues)
+
+##Config and Time Offsets
+
+You can find the config in minecraft/config. It is called "EzTimeKeeper.cfg. There are currently two config options. These are the block ID and the time offset.
+
+Time Offsets allow you to change the time in game. For instance, if you always play at night, perhaps you want to reverse the time scale. If you set the time offset to 12000 then it will be day during the night, and night during the day. Minecraft time runs on a 24000 tick cycle. Meaning adding 12000 will set it ahead half a cycle. (Day -> Night, or vice versa)
+
+The block ID can be changed if you experience conflicts. This is the same with all mods.
 
 Last updated August 23, 2013
