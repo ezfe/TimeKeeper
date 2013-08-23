@@ -13,8 +13,11 @@ With NEI:
 2. Find the "Time Keeper" block, give it to yourself, and place it in the world.
 
 Without NEI:
+
 1. If your world doesn't have cheats enabled, open it to LAN with cheats on.
+
 2. Type /gamemode @p 1
+
 3. Go to the redstone tab, and give yourself one Time Keeper. Place it in the world.
 
 It has no recipe, and you only need one per world. However the chunk needs to stay loaded, so placing it spawn is helpful.
