@@ -48,7 +48,7 @@ public class BlockTimeKeeper extends BlockContainer {
 		
 		float goal_time = ((total_sec/86400)*24000);
 
-		world.setWorldTime((Math.round(goal_time)+24000)-6000);
+		world.setWorldTime((Math.round(goal_time)+18000)+BlockInfo.TIME_OFFSET);
 	}
 
 	@Override

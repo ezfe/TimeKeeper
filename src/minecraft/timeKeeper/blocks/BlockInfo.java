@@ -16,7 +16,7 @@ public class BlockInfo {
 
 	public static final String TIME_KEEPER_TE_KEY = "timeKeeperTileEntity";
 
-	
+	public static int TIME_OFFSET;
 
 
 

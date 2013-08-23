@@ -14,6 +14,8 @@ public class ConfigHandler {
 		
 		BlockInfo.TIME_KEEPER_ID = config.getBlock(BlockInfo.TIME_KEEPER_KEY, BlockInfo.TIME_KEEPER_DEFAULT).getInt();
 		
+		BlockInfo.TIME_OFFSET = config.get("General Settings", "time-offset", 0).getInt();
+		
 		config.save();
 	}
 	

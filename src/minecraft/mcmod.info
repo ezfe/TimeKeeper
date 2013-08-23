@@ -2,7 +2,7 @@
 {
 	"modid" : "EzTimeKeeper",
 	"name" : "Time Keeper",
-	"version" : "1.0.1",
+	"version" : "1.0.2",
 	"credits" : "@vswe",
 	"authors" : [
 		"Ezekiel"
