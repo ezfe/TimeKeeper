@@ -3,10 +3,16 @@ TimeKeeper - a Forge mod
 
 TimeKeeper Mod for Minecraft 1.6.2
 
-
 This mod will sync the Minecraft time to the time outside. Keep in mind sunsets probably won't be perfectly synced, because minecraft sunsets don't vary based on seasons or location. However, the game will be running on a 24 hour cycle, and keep in sync, meaning you can sleep through night. In your bed.
 
-To get started in a new world, you have two options:
+##Installation
+
+1. Install forge (http://files.minecraftforge.net). This mod was last tested and built with 9.10.0.804.
+
+2. Put the downloaded zip into minecraft/mods (where minecraft is your minecraft folder). You can find information on locating your minecraft folder here: http://hopper.minecraft.net/help/finding-minecraft-data-folder/
+
+
+##To get started in a new world, you have two options:
 
 With NEI:
 
