@@ -28,6 +28,8 @@ Without NEI:
 
 3. Go to the redstone tab, and give yourself one Time Keeper. Place it in the world.
 
+4. Type /gamemode @p 0. You can also close the world, and reopen it to close it form LAN and disable cheats.
+
 It has no recipe, and you only need one per world. However the chunk needs to stay loaded, so placing it spawn is helpful.
 
 You shouldn't need to do anything else. If you notice the mod is causing significant lag (or any other issue), create an issue on Github, and I will look into it :) (https://github.com/ezfe/TimeKeeper/issues)
