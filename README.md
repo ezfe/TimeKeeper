@@ -1,4 +1,4 @@
-TimeKeeper
+TimeKeeper - a Forge mod
 =============
 
 TimeKeeper Mod for Minecraft 1.6.2
