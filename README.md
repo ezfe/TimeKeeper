@@ -9,7 +9,9 @@ This mod will sync the Minecraft time to the time outside. Keep in mind sunsets 
 To get started in a new world, you have two options:
 
 With NEI:
+
 1. Turn on cheat mode
+
 2. Find the "Time Keeper" block, give it to yourself, and place it in the world.
 
 Without NEI:
