@@ -26,4 +26,4 @@ It has no recipe, and you only need one per world. However the chunk needs to st
 
 You shouldn't need to do anything else. If you notice the mod is causing significant server load, create an issue in github, and I will look into it :) (https://github.com/ezfe/TimeKeeper/issues)
 
-Last updated August 21, 2013
+Last updated August 23, 2013
