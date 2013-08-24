@@ -9,7 +9,9 @@ This mod will sync the Minecraft time to the time outside. Keep in mind sunsets 
 
 1. Install forge (http://files.minecraftforge.net). This mod was last tested and built with 9.10.0.804.
 
-2. Put the downloaded zip into minecraft/mods (where minecraft is your minecraft folder). You can find information on locating your minecraft folder here: http://hopper.minecraft.net/help/finding-minecraft-data-folder/
+2. Go download the latest release, or whichever you want to download from here: https://github.com/ezfe/TimeKeeper/releases
+
+3. Put the downloaded zip into minecraft/mods (where minecraft is your minecraft folder). You can find information on locating your minecraft folder here: http://hopper.minecraft.net/help/finding-minecraft-data-folder/
 
 
 ##To get started in a new world, you have two options:
