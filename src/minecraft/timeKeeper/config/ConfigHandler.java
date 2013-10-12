@@ -16,9 +16,6 @@ public class ConfigHandler {
 		
 		BlockInfo.TIME_OFFSET = config.get("General Settings", "time-offset", 0).getInt();
 		
-		BlockInfo.ZIP_CODE = config.get("General Settings", "Zip-Code", 00000).getInt();
-		BlockInfo.Country = config.get("General Settings", "Country", "United States").getString();
-		
 		config.save();
 	}
 	

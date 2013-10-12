@@ -18,10 +18,6 @@ public class BlockInfo {
 
 	public static int TIME_OFFSET;
 
-	public static int ZIP_CODE;
-
-	public static String Country;
-
 
 
 }

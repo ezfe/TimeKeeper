@@ -1,6 +1,5 @@
 package timeKeeper;
 
-import timeKeeper.blocks.BlockInfo;
 import timeKeeper.blocks.Blocks;
 import timeKeeper.config.ConfigHandler;
 import timeKeeper.network.PacketHandler;
@@ -33,12 +32,6 @@ public class EzTimeKeeper {
 		
 		proxy.initSounts();
 		proxy.initRenderers();
-		
-		if (BlockInfo.ZIP_CODE > 99999) {
-			BlockInfo.ZIP_CODE = 99999;
-			System.out.println("Your ZIP code was improperly set. It should be a five digit number. It has been decreased to the first available 5 digit number.");
-			System.out.println("International users, please set your zip code to 0 until I have figured you out.");
-		}
 	}
 	
 	@EventHandler
