@@ -54,6 +54,10 @@ src/minecraft/fml_marker.cfg
 
 src/minecraft/deobfuscation_data-1.6.2.lzma
 
+src/minecraft/deobfuscation_data-1.6.4.lzma
+
 src/minecraft/paulscode/sound/codecs/CodecIBXM.java
 
 reobf
+
+/src/minecraft/assets/forge
