@@ -45,3 +45,7 @@ Time Offsets allow you to change the time in game. For instance, if you always p
 The block ID can be changed if you experience conflicts. This is the same with all mods.
 
 Last updated October 14, 2013
+
+##Screenshot
+
+You can see a screenshot here: https://github.com/ezfe/TimeKeeper/blob/master/Screenshot.png
