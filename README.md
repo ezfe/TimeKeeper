@@ -1,13 +1,13 @@
 TimeKeeper - a Forge mod
 =============
 
-TimeKeeper Mod for Minecraft 1.6.2
+TimeKeeper Mod for Minecraft 1.6.4
 
 This mod will sync the Minecraft time to the time outside. Keep in mind sunsets probably won't be perfectly synced, because minecraft sunsets don't vary based on seasons or location. However, the game will be running on a 24 hour cycle, and keep in sync, meaning you can sleep through night. In your bed.
 
 ##Installation
 
-1. Install forge (http://files.minecraftforge.net). This mod was last tested and built with 9.10.0.804.
+1. Install forge (http://files.minecraftforge.net). This mod was last tested and built with 9.11.1.916.
 
 2. Go download the latest release, or whichever you want to download from here: https://github.com/ezfe/TimeKeeper/releases
 
@@ -30,7 +30,7 @@ Without NEI:
 
 3. Go to the redstone tab, and give yourself one Time Keeper. Place it in the world.
 
-4. Type /gamemode @p 0. You can also close the world, and reopen it to close it form LAN and disable cheats.
+4. Type /gamemode @p 0. You can also close the world, and reopen it to close it from LAN to disable cheats.
 
 It has no recipe, and you only need one per world. However the chunk needs to stay loaded, so placing it spawn is helpful.
 
@@ -44,4 +44,4 @@ Time Offsets allow you to change the time in game. For instance, if you always p
 
 The block ID can be changed if you experience conflicts. This is the same with all mods.
 
-Last updated August 23, 2013
+Last updated October 14, 2013
