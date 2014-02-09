@@ -2,7 +2,7 @@
 {
   "modid": "EzTimeKeeper",
   "name": "Time Keeper",
-  "description": "Keeps Time.",
+  "description": "Keeps Time, awesomely.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url" : "http://ezekielelin.com?mcmod=EzTimeKeeper",
