@@ -7,8 +7,10 @@ import java.util.Date;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.IIcon;
 import net.minecraft.world.World;
 
 import com.ez.EzTimeKeeper.tileentities.TileEntityTimeKeeper;
@@ -22,13 +24,19 @@ public class BlockTimeKeeper extends BlockContainer {
 		setStepSound(Block.soundTypeMetal);
 		//setUnlocalizedName(BlockInfo.TIME_KEEPER_UNLOCALIZED_NAME);
 	}
+/*	
+	private IIcon[] textures;
 	
-	//@Override
-	//@SideOnly(Side.CLIENT)
-	//public void registerIcons(IconRegister register) {
-	//	blockIcon = register.registerIcon(BlockInfo.TEXTURE_LOCATION + ":" + BlockInfo.TIME_KEEPER_TEXTURE);
-	//}
-	
+	@Override
+	public void registerBlockIcons(IIconRegister iconRegister) {
+		textures[0] = iconRegister.registerIcon("biomesoplenty:time_keeper");
+	}
+
+	@Override
+	public IIcon getIcon(int side, int meta) {
+		return textures[0];
+	}
+*/
 	public static void timeKeep(World world) {
 		DateFormat dateFormat = new SimpleDateFormat("HH");
 		Date date = new Date();

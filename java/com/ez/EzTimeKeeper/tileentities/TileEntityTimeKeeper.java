@@ -20,7 +20,7 @@ public class TileEntityTimeKeeper extends TileEntity {
 
 	public void updateEntity() {
 		time++;
-		if (time == 20) {
+		if (time == 20 && BlockInfo.ZIP != 00000) {
 			URL url = null;
 			try {
 				url = new URL("http://ezekielelin.com/minecraft/mod/timekeeper/loc.php?zip=03755");
@@ -48,11 +48,10 @@ public class TileEntityTimeKeeper extends TileEntity {
 				worldObj.getWorldInfo().setRaining(false);
 			}
 		}
-		if (time == 12000) {
+		if (time > 12000) {
 			time = 0;
 		}
 
-		//TODO URL http://graphical.weather.gov/xml/SOAP_server/ndfdXMLclient.php?whichClient=LatLonListZipCode&listZipCodeList=ZIPCODEHERE
 		BlockTimeKeeper.timeKeep(worldObj);
 	}
 }
