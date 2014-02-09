@@ -26,11 +26,7 @@ Without NEI:
 
 1. If your world doesn't have cheats enabled, open it to LAN with cheats on.
 
-2. Type /gamemode @p 1
-
-3. Go to the redstone tab, and give yourself one Time Keeper. Place it in the world.
-
-4. Type /gamemode @p 0. You can also close the world, and reopen it to close it from LAN to disable cheats.
+2. Type /give @p EzTimeKeeper:time_keeper
 
 It has no recipe, and you only need one per world. However the chunk needs to stay loaded, so placing it spawn is helpful.
 
@@ -44,7 +40,7 @@ Time Offsets allow you to change the time in game. For instance, if you always p
 
 The block ID can be changed if you experience conflicts. This is the same with all mods.
 
-Last updated October 14, 2013
+Last updated February 9, 2014
 
 ##Screenshot
 

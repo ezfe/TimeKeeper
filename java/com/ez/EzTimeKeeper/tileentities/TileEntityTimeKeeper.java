@@ -1,4 +1,4 @@
-package timeKeeper.tileentities;
+package com.ez.EzTimeKeeper.tileentities;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -9,7 +9,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import net.minecraft.tileentity.TileEntity;
-import timeKeeper.blocks.BlockTimeKeeper;
+
+import com.ez.EzTimeKeeper.blocks.BlockTimeKeeper;
 
 public class TileEntityTimeKeeper extends TileEntity {
 	
@@ -41,7 +42,7 @@ public class TileEntityTimeKeeper extends TileEntity {
 				e.printStackTrace();
 			}
 			if (zipCodeData == "rain") {
-				worldObj.rainingStrength = 1.0F;
+				//worldObj.rainingStrength = 1.0F;
 				System.out.println("----");
 				System.out.println(worldObj.isThundering());
 				System.out.println("----");

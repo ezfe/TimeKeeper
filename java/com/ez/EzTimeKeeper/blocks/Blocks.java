@@ -1,7 +1,9 @@
-package timeKeeper.blocks;
+package com.ez.EzTimeKeeper.blocks;
 
-import timeKeeper.tileentities.TileEntityTimeKeeper;
 import net.minecraft.block.Block;
+
+import com.ez.EzTimeKeeper.tileentities.TileEntityTimeKeeper;
+
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
@@ -10,12 +12,12 @@ public class Blocks {
 	public static Block timeKeeper;
 	
 	public static void init() {
-		timeKeeper = new BlockTimeKeeper(BlockInfo.TIME_KEEPER_ID);
+		timeKeeper = new BlockTimeKeeper();
 		GameRegistry.registerBlock(timeKeeper, BlockInfo.TIME_KEEPER_KEY);
 	}
 	
 	public static void addNames() {
-		LanguageRegistry.addName(timeKeeper, BlockInfo.TIME_KEEPER_NAME);
+		//TODO Add Name!
 	}
 
 	public static void registerTileEntities() {

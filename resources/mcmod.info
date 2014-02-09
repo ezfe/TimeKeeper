@@ -1,0 +1,18 @@
+[
+{
+  "modid": "EzTimeKeeper",
+  "name": "Time Keeper",
+  "description": "Keeps Time.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url" : "http://ezekielelin.com?mcmod=EzTimeKeeper",
+  "updateUrl": "",
+  "credits" : "@vswe",
+  "authors" : [
+    "Ezekiel"
+  ],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
