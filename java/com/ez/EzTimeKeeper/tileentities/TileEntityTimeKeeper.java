@@ -10,6 +10,7 @@ import java.net.URL;
 
 import net.minecraft.tileentity.TileEntity;
 
+import com.ez.EzTimeKeeper.blocks.BlockInfo;
 import com.ez.EzTimeKeeper.blocks.BlockTimeKeeper;
 
 public class TileEntityTimeKeeper extends TileEntity {
@@ -26,7 +27,7 @@ public class TileEntityTimeKeeper extends TileEntity {
 			} catch (MalformedURLException e1) {
 				e1.printStackTrace();
 			}
-			String zipCodeData = null;
+			String zipCodeData = "";
 			try {
 				BufferedReader reader = new BufferedReader (new InputStreamReader(url.openStream()));
 				BufferedWriter writer = new BufferedWriter (new FileWriter("data.html"));
@@ -41,12 +42,14 @@ public class TileEntityTimeKeeper extends TileEntity {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			if (zipCodeData == "rain") {
-				//worldObj.rainingStrength = 1.0F;
-				System.out.println("----");
-				System.out.println(worldObj.isThundering());
-				System.out.println("----");
+			if (zipCodeData.toLowerCase().contains("rain".toLowerCase())) {
+				worldObj.getWorldInfo().setRaining(true);
+			} else {
+				worldObj.getWorldInfo().setRaining(false);
 			}
+		}
+		if (time == 12000) {
+			time = 0;
 		}
 
 		//TODO URL http://graphical.weather.gov/xml/SOAP_server/ndfdXMLclient.php?whichClient=LatLonListZipCode&listZipCodeList=ZIPCODEHERE
