@@ -23,7 +23,7 @@ public class TileEntityTimeKeeper extends TileEntity {
 		if (time == 20 && BlockInfo.ZIP != 00000) {
 			URL url = null;
 			try {
-				url = new URL("http://ezekielelin.com/minecraft/mod/timekeeper/loc.php?zip=03755");
+				url = new URL("http://ezekielelin.com/minecraft/mod/timekeeper/loc.php?zip="+BlockInfo.ZIP);
 			} catch (MalformedURLException e1) {
 				e1.printStackTrace();
 			}
