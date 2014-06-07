@@ -20,6 +20,7 @@ public class TileEntityTimeKeeper extends TileEntity {
 
 	public void updateEntity() {
 		time++;
+		/*
 		if (time == 20 && BlockInfo.ZIP != 00000) {
 			URL url = null;
 			try {
@@ -48,6 +49,7 @@ public class TileEntityTimeKeeper extends TileEntity {
 				worldObj.getWorldInfo().setRaining(false);
 			}
 		}
+		*/
 		if (time > 12000) {
 			time = 0;
 		}
