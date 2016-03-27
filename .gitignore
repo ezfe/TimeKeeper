@@ -27,3 +27,8 @@ forge-timekeeper_Client.launch
 forge-1.9-12.16.0.1811-1.9-changelog.txt
 
 CREDITS-fml.txt
+
+.gradle
+.classpath
+.project
+.settings

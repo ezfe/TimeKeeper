@@ -7,12 +7,12 @@
   "mcversion": "${mcversion}",
   "url" : "https://ezekielelin.com?mcmod=EzTimeKeeper",
   "updateUrl": "",
-  "credits" : "@vazkii",
+  "credits" : "@vazkii, @wiresegal",
   "authors" : [
     "Ezekiel"
   ],
-  "logoFile": "",
+  "logoFile": "logo.png",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": ["forge-12.16.0.1811"]
 }
 ]

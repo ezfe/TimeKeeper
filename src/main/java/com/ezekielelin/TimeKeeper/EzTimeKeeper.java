@@ -23,7 +23,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class EzTimeKeeper {
 	public static final String MODID = "EzTimeKeeper";
 	public static final String NAME = "Time Keeper";
-	public static final String VERSION = "2.1.2";
+	public static final String VERSION = "2.1.3";
 
 	public static final TimeZone tz = Calendar.getInstance().getTimeZone();
 	
@@ -72,10 +72,6 @@ public class EzTimeKeeper {
 		double sunrise = (double) (sunriseCal.get(Calendar.HOUR_OF_DAY) + ((double) sunriseCal.get(Calendar.MINUTE)) / 60);
 		double sunset = (double) (sunsetCal.get(Calendar.HOUR_OF_DAY) + ((double) sunsetCal.get(Calendar.MINUTE)) / 60);
 		double now = (double) (nowCal.get(Calendar.HOUR_OF_DAY) + ((double) nowCal.get(Calendar.MINUTE)) / 60);
-				
-		System.out.println(sunrise);
-		System.out.println(sunset);
-		System.out.println(now);
 		
 		int mcTime;
 		
