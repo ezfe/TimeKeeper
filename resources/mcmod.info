@@ -5,9 +5,9 @@
   "description": "Keeps Time, awesomely.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url" : "http://ezekielelin.com?mcmod=EzTimeKeeper",
+  "url" : "https://ezekielelin.com?mcmod=EzTimeKeeper",
   "updateUrl": "",
-  "credits" : "@vswe",
+  "credits" : "@vazkii",
   "authors" : [
     "Ezekiel"
   ],

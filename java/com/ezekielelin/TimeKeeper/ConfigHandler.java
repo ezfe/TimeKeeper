@@ -1,10 +1,8 @@
-package com.ez.EzTimeKeeper.config;
+package com.ezekielelin.TimeKeeper;
 
 import java.io.File;
 
 import net.minecraftforge.common.config.Configuration;
-
-import com.ez.EzTimeKeeper.blocks.BlockInfo;
 
 public class ConfigHandler {
 	
@@ -13,8 +11,8 @@ public class ConfigHandler {
 		
 		config.load();
 		
-		BlockInfo.TIME_OFFSET = config.get("General Settings", "time-offset", 0).getInt();
-		BlockInfo.ZIP = config.get("General Settings", "zip-code", 00000).getInt();
+		EzTimeKeeper.LATITUDE = config.get("General Settings", "lat", 43.70437929822373).getDouble();
+		EzTimeKeeper.LONGITUDE = config.get("General Settings", "lon", -72.27336766415073).getDouble();
 		
 		config.save();
 	}
