@@ -1,63 +1,29 @@
+build.gradle
 
-bin/minecraft/cpw/mods/fml/client/CustomModLoadingErrorDisplayException.class
+build
+bin
+eclipse
+gradle
+gradlew*
+run
 
-*.sh
+MinecraftForge-Credits.txt
 
-bin/
+MinecraftForge-License.txt
 
-conf/
+Paulscode IBXM Library License.txt
 
-LICENSE.txt
-
-CHANGELOG
-
-*.bat
-
-*.py
-
-docs/
-
-eclipse/
-
-jars/
-
-src/minecraft/net
-
-temp/
-
-src/minecraft/ibxm
-
-src/minecraft/mcp.png
-
-/logs
-
-/runtime
-
-/src/minecraft/Start.java
-
-/src/minecraft/cpw
-
-/src/minecraft/fml
+LICENSE-fml.txt
 
 
-src/minecraft/mcpmod.info
+README.txt
 
-src/minecraft/forge_at.cfg
+Paulscode SoundSystem CodecIBXM License.txt
 
-src/minecraft/forge_logo.png
+forge-timekeeper_Server.launch
 
-src/minecraft/fmlversion.properties
+forge-timekeeper_Client.launch
 
-src/minecraft/fml_at.cfg
+forge-1.9-12.16.0.1811-1.9-changelog.txt
 
-src/minecraft/fml_marker.cfg
-
-src/minecraft/deobfuscation_data-1.6.2.lzma
-
-src/minecraft/deobfuscation_data-1.6.4.lzma
-
-src/minecraft/paulscode/sound/codecs/CodecIBXM.java
-
-reobf
-
-/src/minecraft/assets/forge
+CREDITS-fml.txt
