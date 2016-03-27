@@ -11,8 +11,9 @@ public class ConfigHandler {
 		
 		config.load();
 		
-		EzTimeKeeper.LATITUDE = config.get("General Settings", "lat", 43.70437929822373).getDouble();
-		EzTimeKeeper.LONGITUDE = config.get("General Settings", "lon", -72.27336766415073).getDouble();
+		EzTimeKeeper.LATITUDE = config.get("General Settings", "lat", EzTimeKeeper.LATITUDE).getDouble();
+		EzTimeKeeper.LONGITUDE = config.get("General Settings", "lon", EzTimeKeeper.LONGITUDE).getDouble();
+		EzTimeKeeper.ENABLED = config.get("General Settings", "enabled", EzTimeKeeper.ENABLED).getBoolean();
 		
 		config.save();
 	}

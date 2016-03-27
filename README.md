@@ -17,6 +17,6 @@ This mod will sync the Minecraft time to the time outside.
 
 You can find the config in minecraft/config. It is called "EzTimeKeeper.cfg.
 
-You can set your location here (latitude/longitude). This is used to keep sunsets in sync. If these numbers are wrong sunset and sunrise may not line up.
+You should set your location here (latitude/longitude). This is used to keep sunsets in sync. If these numbers are wrong sunset and sunrise may not line up.
 
 Last updated March 27, 2016
