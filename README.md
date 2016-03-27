@@ -7,6 +7,9 @@ This mod will sync the Minecraft time to the time outside.
 
 ## Changes in this version
 
+### 2.1.2
+- Fixed crash
+
 ### 2.1.1
 - Fixed version tags
 
